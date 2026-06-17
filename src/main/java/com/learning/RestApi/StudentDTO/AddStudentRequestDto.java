@@ -9,7 +9,7 @@ public class AddStudentRequestDto {
 
 
     @NotBlank (message = "can't be blank")
-    @Length(min = 3 , max = 3, message = "should be 3 to 30")
+    @Length(min = 3 , max = 30, message = "should be 3 to 30")
     private String name;
 
     @Email
